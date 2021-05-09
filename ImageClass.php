@@ -1,8 +1,6 @@
 <?php
 
-namespace helpers;
-
-class ImageService
+class ImageClass
 {
     public static function resizeImage($image_name, $new_width, $new_height, $saveLocation, $mime_type)
     {
